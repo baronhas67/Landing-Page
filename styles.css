@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.part-1 {
+    width: auto;
+    height: 650px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-img {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 800px;
+}
+
+.text-body {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 300px;
+}
+
