@@ -207,3 +207,13 @@ a:hover {
 .last-sign-btn:hover {
     background-color: #3374dd;
 }
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
