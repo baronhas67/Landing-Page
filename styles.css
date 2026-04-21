@@ -88,3 +88,43 @@ a:hover {
     color: #F9FAF8;
     font-weight: 900;
 }
+
+.part-2 {
+    display: flex;
+    height: 650px;
+    width: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.information-head {
+    margin: 60px auto;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.image-con {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.images-two {
+    flex: 0 0 auto;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: flex-start;
+    justify-content: center;
+}
+
+.images-two p {
+    color: #a5a7aa;
+}
+
+.img-two {
+    border-radius: 10px;
+}
